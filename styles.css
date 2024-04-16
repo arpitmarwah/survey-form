@@ -1,0 +1,47 @@
+input,
+select {
+  display: block;
+  margin: 2px 4px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+#description {
+  text-align: center;
+}
+body {
+  background-color: #7ea1ff;
+}
+#title {
+  text-align: center;
+  margin: 0 auto;
+}
+#survey-form {
+  /* background-color: blue; */
+  width: 60%;
+  margin: 0 auto;
+  max-width: 20rem;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  width: unset;
+}
+
+.spc-block {
+  display: block;
+}
+
+form {
+  background-color: #0c359e;
+
+  color: white;
+  padding: 10px 20px;
+}
+
+button {
+  width: 100%;
+  margin: 10px 0;
+  background-color: #a5dd9b;
+  border: none;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel='stylesheet' href='styles.css'>
+  </head>
+  <body>
+    <h1 id='title'>Survey Form</h1>
+    <p id='description'>Thank you for your time to help us improve</p>
+    <form id='survey-form'>
+      <label id='name-label'>Enter Name:
+        <input placeholder='enter name' id='name' type='text' required>
+      </label>
+      <label id='email-label'>Enter Email:
+        <input placeholder='enter email' id='email' required type='email'>
+      </label>
+      <label id='number-label'>Enter Age:
+        <input placeholder='enter age' id='number' type='number' min='15' max='120'>
+      </label>
+      <label>
+        Your Background:
+        <select id='dropdown'>
+          <option>Please Select</option>
+          <option>Student</option>
+          <option>Working</option>
+        </select>
+      </label>
+      <p>Would you recomend this to someone?</p>
+      <label class='spc-block'>
+        <input name='refer' type='radio' value='yes'>Yes
+      </label>
+      <label class='refer'>
+        <input name='refer' type='radio' value='maybe'>Maybe
+      </label>
+      <p>What can be improved?</p>
+      <label class='spc-block'>
+        <input value='support' type='checkbox'>
+        Support
+      </label>
+      <label>
+        <input value='appearance' type='checkbox'>
+        Appearance
+      </label>
+      <label class='spc-block'>
+        Additional comments, if any...
+        <textarea>
+
+        </textarea>
+      </label>
+      <button type='submit' id='submit'>Submit</button
+      </form>
+  </body>
+</html>
